@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
-    "naive-ui": "^2.23.2",
+    "naive-ui": "^2.26.4",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
     "vfonts": "^0.0.3",
@@ -42,8 +42,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx,vue,js,jsx}": [
-      "yarn lint",
       "prettier --write",
+      "yarn lint",
       "git add"
     ]
   }

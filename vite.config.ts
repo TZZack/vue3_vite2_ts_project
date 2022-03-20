@@ -26,7 +26,7 @@ export default defineConfig({
       scss: {
 
         // 不需任何引用就可以试用main.scss里面的变量
-        additionalData: '@import "@/assets/style/main.scss"'
+        additionalData: '@import "@/assets/style/main.scss";'
       }
     }
   },
