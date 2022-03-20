@@ -25,6 +25,11 @@
   resolved "https://registry.npmmirror.com/@css-render/plugin-bem/download/@css-render/plugin-bem-0.15.8.tgz#02df62ec0a16f5c07687e64f1ee595e8509d04ce"
   integrity sha512-rJMFBaqZGrezs1d0vPB7hZTSkfFEgcdWxPMtLUmm9PAOioWtw+Knb9A0xU0bYazPKDo0SoNVVcd1Qd1LXD9x4Q==
 
+"@css-render/vue3-ssr@^0.15.7":
+  version "0.15.9"
+  resolved "https://registry.npmjs.org/@css-render/vue3-ssr/-/vue3-ssr-0.15.9.tgz#59ce56a0ee417748845af9e29784235381f9b049"
+  integrity sha512-b3wvEIZYjToOEAV/oUqVtcg+MPF/iSZB9VmVF7fMAAAfvVTc2kB4TZDhGZCMkGjGZxOUm1jia7q/Z9FJnJGLKw==
+
 "@css-render/vue3-ssr@^0.15.8":
   version "0.15.8"
   resolved "https://registry.npmmirror.com/@css-render/vue3-ssr/download/@css-render/vue3-ssr-0.15.8.tgz#76f36fd52c4e53b8f553e00032c378c0ae59bab3"
@@ -954,14 +959,14 @@ dart-sass@^1.25.0:
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
-date-fns-tz@^1.1.6:
-  version "1.2.2"
-  resolved "https://registry.npmmirror.com/date-fns-tz/download/date-fns-tz-1.2.2.tgz#89432b54ce3fa7d050a2039e997e5b6a96df35dd"
-  integrity sha512-vWtn44eEqnLbkACb7T5G5gPgKR4nY8NkNMOCyoY49NsRGHrcDmY2aysCyzDeA+u+vcDBn/w6nQqEDyouRs4m8w==
+date-fns-tz@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/date-fns-tz/-/date-fns-tz-1.3.0.tgz#6c83d4bdf20d54060cf176d96a3ca45043b36a84"
+  integrity sha512-r6ye6PmGEvkF467/41qzU71oGwv9kHTnV3vtSZdyV6VThwPID47ZH7FtR7zQWrhgOUWkYySm2ems2w6ZfNUqoA==
 
-date-fns@^2.27.0:
+date-fns@^2.28.0:
   version "2.28.0"
-  resolved "https://registry.npmmirror.com/date-fns/download/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 debug@^4.1.1, debug@^4.3.2, debug@^4.3.3:
@@ -2481,10 +2486,10 @@ mute-stream@0.0.8:
   resolved "https://registry.npm.taobao.org/mute-stream/download/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
 
-naive-ui@^2.23.2:
-  version "2.23.2"
-  resolved "https://registry.npmmirror.com/naive-ui/download/naive-ui-2.23.2.tgz#4fa03b3ffec0768c0fe5d8eb7b51dadf36319119"
-  integrity sha512-x5XtoJrfMcBGqkryJ6RPg3hB7xDqbO+5TfDB1UGIaVsj2fsidn9S9a6yK/jXqKbw+h5h97NqOu+Lf5EH8tAIog==
+naive-ui@^2.26.4:
+  version "2.26.4"
+  resolved "https://registry.npmjs.org/naive-ui/-/naive-ui-2.26.4.tgz#96b91fd36919fd36d20641668c8636a02e144d65"
+  integrity sha512-yJQl6y58pxQWKi8YAofiFk0+4WVN+dNYoyKiMfaVdvVQTh9VxjBrcs4z5NUT+d98xUXOtmMzpIlrW/4P1xty+w==
   dependencies:
     "@css-render/plugin-bem" "^0.15.8"
     "@css-render/vue3-ssr" "^0.15.8"
@@ -2492,8 +2497,8 @@ naive-ui@^2.23.2:
     "@types/lodash-es" "^4.17.4"
     async-validator "^4.0.1"
     css-render "^0.15.8"
-    date-fns "^2.27.0"
-    date-fns-tz "^1.1.6"
+    date-fns "^2.28.0"
+    date-fns-tz "^1.3.0"
     evtd "^0.2.3"
     highlight.js "^11.0.1"
     lodash "^4.17.21"
@@ -2501,9 +2506,9 @@ naive-ui@^2.23.2:
     seemly "^0.3.3"
     treemate "^0.3.9"
     vdirs "^0.1.7"
-    vfonts "^0.1.0"
+    vfonts "^0.0.3"
     vooks "^0.2.12"
-    vueuc "^0.4.19"
+    vueuc "^0.4.27"
 
 nanoid@^3.1.30:
   version "3.1.30"
@@ -3676,13 +3681,8 @@ vdirs@^0.1.4, vdirs@^0.1.7:
 
 vfonts@^0.0.3:
   version "0.0.3"
-  resolved "https://registry.npmmirror.com/vfonts/download/vfonts-0.0.3.tgz#999d66fecea18efee3f2b966c81101ae8ce01a29"
+  resolved "https://registry.npmjs.org/vfonts/-/vfonts-0.0.3.tgz#999d66fecea18efee3f2b966c81101ae8ce01a29"
   integrity sha512-nguyw8L6Un8eelg1vQ31vIU2ESxqid7EYmy8V+MDeMaHBqaRSkg3dTBToC1PR00D89UzS/SLkfYPnx0Wf23IQQ==
-
-vfonts@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmmirror.com/vfonts/download/vfonts-0.1.0.tgz#c16af37ca044b2725ae55553049280efbe6222a9"
-  integrity sha1-wWrzfKBEsnJa5VVTBJKA775iIqk=
 
 vite-plugin-compression@^0.4.0:
   version "0.4.0"
@@ -3890,11 +3890,12 @@ vue@^3.2.25:
     "@vue/server-renderer" "3.2.26"
     "@vue/shared" "3.2.26"
 
-vueuc@^0.4.19:
-  version "0.4.19"
-  resolved "https://registry.npmmirror.com/vueuc/download/vueuc-0.4.19.tgz#4f7f5f91201994e400d670944c7d880013bbf601"
-  integrity sha512-mzhYwv60cldElLolvG5sMsDFNMP1+vQbxPnbWzT2BdIG6XfF0hzCxq0KMoYpg4cAekKijty2txRgNkySIjTWLA==
+vueuc@^0.4.27:
+  version "0.4.27"
+  resolved "https://registry.npmjs.org/vueuc/-/vueuc-0.4.27.tgz#ac9fba71e33bed7e51ee59962e260371293119d6"
+  integrity sha512-wkIM6F1VT9cuzC2YOIzktPcTJ3eI8FoQ39KazAKwcdPv3GcXZGO1vBZc3TspBwap0AIn9eF8dxvQAW80yxhbHg==
   dependencies:
+    "@css-render/vue3-ssr" "^0.15.7"
     css-render "^0.15.7"
     evtd "^0.2.2"
     resize-observer-polyfill "^1.5.1"
